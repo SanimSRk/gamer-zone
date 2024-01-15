@@ -209,6 +209,51 @@ nav {
 .video_contner {
   margin-top: 8rem;
 }
+/*instll areya styel*/
+
+.install_section_contener {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  gap: 15%;
+}
+.text_isnstall_descoption {
+  margin-top: 1rem;
+}
+.img_section_contner {
+  width: 50%;
+}
+.text_contner_install {
+  width: 40%;
+  text-align: center;
+}
+.text_install_tiel {
+  font-size: 3rem;
+  color: #f948b2;
+  font-weight: 700;
+}
+.text_nistall_titel_all {
+  font-size: 3rem;
+  color: #0b0223;
+}
+.install_img_section img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.install_smolle_img img {
+  width: 50%;
+  position: relative;
+  bottom: 200px;
+  right: 80px;
+}
+.install_smolle_img img {
+  width: 50%;
+}
+
 /* mediya screen styel */
 
 @media screen and (max-width: 576px) {
@@ -262,6 +307,29 @@ nav {
   .video_section_image {
     text-align: center;
   }
+  .install_section_contener {
+    flex-direction: column;
+  }
+  .text_contner_install {
+    width: 100%;
+  }
+  .img_section_contner {
+    width: 100%;
+    padding: 2rem;
+  }
+  .install_smolle_img img {
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+  }
+  .text_install_tiel {
+    font-size: 2rem;
+  }
+  .text_nistall_titel_all {
+    font-size: 2rem;
+    color: #0b0223;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 1000px) {
   .nav_header {
@@ -289,5 +357,27 @@ nav {
   .gamer_text_areya {
     width: 100%;
     text-align: center;
+  }
+  .video_img_section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .video_section_image {
+    text-align: center;
+  }
+  .install_section_contener {
+    flex-direction: column;
+  }
+  .text_contner_install {
+    width: 100%;
+  }
+  .img_section_contner {
+    width: 100%;
+    padding: 2rem;
+  }
+  .install_smolle_img img {
+    width: 50%;
+    position: relative;
+    bottom: 190px;
+    right: 70px;
   }
 }
