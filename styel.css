@@ -231,8 +231,10 @@ nav {
 }
 .text_install_tiel {
   font-size: 3rem;
-  color: #f948b2;
-  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .text_nistall_titel_all {
   font-size: 3rem;
@@ -253,9 +255,106 @@ nav {
 .install_smolle_img img {
   width: 50%;
 }
+/*palyed section styel*/
 
-/* mediya screen styel */
+.play_game_section {
+  display: flex;
+  align-items: center;
+  gap: 15%;
+}
+.play_gme_img_areya {
+  width: 46%;
+}
+.play_gme_img_areya img {
+  width: 100%;
+}
+.play_down_img {
+  text-align: end;
+}
+.play_down_img img {
+  width: 40%;
+  object-fit: cover;
+  position: relative;
+  bottom: 180px;
+  left: 110px;
+}
+.played_text_areya {
+  width: 42%;
+}
+.played_games_titel {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0b0223;
+  margin-bottom: 1rem;
+}
+.play_games_online {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+/*carrer styel areya*/
+.career_section {
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+.career_section {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.career_text_areya {
+  width: 55%;
+  background-image: url(image/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.career_list_areya {
+  display: flex;
+  justify-content: space-between;
+}
+.career_img_section {
+  width: 59%;
+}
+.career_img_section img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.carear_text {
+  margin-left: 16%;
+  background: none;
+  color: #fff;
+}
+.career_text_titel {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.carer_text_descoption {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+.career_list_areya ul li {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.positons_btn {
+  padding: 12px 24px;
+  border-radius: 48px;
+  background: #fff;
+  border: none;
+  color: #f948b2;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
 @media screen and (max-width: 576px) {
   .nav_header {
     flex-direction: column;
@@ -330,8 +429,29 @@ nav {
     font-size: 2rem;
     color: #0b0223;
   }
+  .play_game_section {
+    flex-direction: column-reverse;
+    gap: 1%;
+  }
+  .play_gme_img_areya {
+    width: 100%;
+    padding: 2rem;
+  }
+  .played_text_areya {
+    width: 100%;
+    text-align: center;
+  }
+  .play_down_img img {
+    width: 40%;
+
+    bottom: 90px;
+    left: 50px;
+  }
+  .played_games_titel {
+    font-size: 2rem;
+  }
 }
-@media screen and (min-width: 576px) and (max-width: 1000px) {
+@media screen and (min-width: 576px) and (max-width: 1040px) {
   .nav_header {
     flex-direction: column;
   }
@@ -379,5 +499,26 @@ nav {
     position: relative;
     bottom: 190px;
     right: 70px;
+  }
+  .play_game_section {
+    flex-direction: column-reverse;
+    gap: 1%;
+  }
+  .play_gme_img_areya {
+    width: 100%;
+    padding: 3rem;
+  }
+  .played_text_areya {
+    width: 100%;
+    text-align: center;
+  }
+  .play_down_img img {
+    width: 40%;
+
+    bottom: 90px;
+    left: 50px;
+  }
+  .played_games_titel {
+    font-size: 3rem;
   }
 }
