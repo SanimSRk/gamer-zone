@@ -1,0 +1,246 @@
+@media screen and (max-width: 576px) {
+  .nav_header {
+    flex-direction: column;
+  }
+  .nav_list_areya ul {
+    flex-direction: column;
+  }
+  .hero_areya {
+    flex-direction: column-reverse;
+  }
+  .played_head_section {
+    width: 100%;
+  }
+  .palyed_img_header {
+    width: 100%;
+  }
+  .played_imag_section {
+    width: 100%;
+  }
+  .played_header_titel {
+    font-size: 3rem;
+  }
+  .played_section_titel {
+    font-size: 2rem;
+  }
+  ul li {
+    font-size: 0.8rem;
+  }
+  .btn_red_section {
+    padding: 10px 24px;
+    border-radius: 20px;
+  }
+
+  .btn_blue_section {
+    padding: 10px 24px;
+    border-radius: 20px;
+    margin-left: 1rem;
+  }
+  .gamer_tame_section {
+    flex-direction: column;
+  }
+  .gamer_text_areya {
+    width: 100%;
+    text-align: center;
+  }
+  .video_img_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .video_section_image {
+    text-align: center;
+  }
+  .install_section_contener {
+    flex-direction: column;
+  }
+  .text_contner_install {
+    width: 100%;
+  }
+  .img_section_contner {
+    width: 100%;
+    padding: 2rem;
+  }
+  .install_smolle_img img {
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+  }
+  .text_install_tiel {
+    font-size: 2rem;
+  }
+  .text_nistall_titel_all {
+    font-size: 2rem;
+    color: #0b0223;
+  }
+  .play_game_section {
+    flex-direction: column-reverse;
+    gap: 1%;
+  }
+  .play_gme_img_areya {
+    width: 100%;
+    padding: 2rem;
+  }
+  .played_text_areya {
+    width: 100%;
+    text-align: center;
+  }
+  .play_down_img img {
+    width: 40%;
+
+    bottom: 90px;
+    left: 50px;
+  }
+  .played_games_titel {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .career_section {
+    flex-direction: column;
+    gap: 0%;
+  }
+
+  .career_text_areya {
+    width: 100%;
+    text-align: center;
+  }
+  .career_list_areya {
+    flex-direction: col;
+  }
+  .career_img_section {
+    width: 100%;
+  }
+  .gamer_player_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    text-align: center;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  .gamer_player_titel {
+    font-size: 0.8rem;
+  }
+  .carear_text {
+    margin-left: 0%;
+    padding: 2rem;
+  }
+}
+
+/* -------tablet responce-------*/
+
+@media screen and (min-width: 576px) and (max-width: 1040px) {
+  .nav_header {
+    flex-direction: column;
+  }
+  .nav_list_areya ul {
+    flex-direction: column;
+  }
+  .hero_areya {
+    flex-direction: column-reverse;
+  }
+  .played_head_section {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .palyed_img_header {
+    width: 100%;
+  }
+  .played_imag_section {
+    width: 100%;
+  }
+  .gamer_tame_section {
+    flex-direction: column;
+  }
+  .gamer_text_areya {
+    width: 100%;
+    text-align: center;
+  }
+  .video_img_section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .video_section_image {
+    text-align: center;
+  }
+  .install_section_contener {
+    flex-direction: column;
+  }
+  .text_contner_install {
+    width: 100%;
+  }
+  .img_section_contner {
+    width: 100%;
+    padding: 2rem;
+  }
+  .install_smolle_img img {
+    width: 50%;
+    position: relative;
+    bottom: 190px;
+    right: 70px;
+  }
+  .play_game_section {
+    flex-direction: column-reverse;
+    gap: 1%;
+  }
+  .play_gme_img_areya {
+    width: 100%;
+    padding: 3rem;
+  }
+  .played_text_areya {
+    width: 100%;
+    text-align: center;
+  }
+  .play_down_img img {
+    width: 40%;
+
+    bottom: 90px;
+    left: 50px;
+  }
+  .played_games_titel {
+    font-size: 3rem;
+  }
+  .played_text_areya {
+    width: 100%;
+    text-align: center;
+  }
+  .play_down_img img {
+    width: 40%;
+
+    bottom: 90px;
+    left: 50px;
+  }
+  .played_games_titel {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .career_section {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .career_text_areya {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .career_list_areya {
+    flex-direction: col;
+  }
+  .career_img_section {
+    width: 100%;
+  }
+  .gamer_player_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    text-align: center;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  .gamer_player_titel {
+    font-size: 1rem;
+  }
+  .carear_text {
+    margin-left: 0%;
+    padding: 2rem;
+  }
+}
