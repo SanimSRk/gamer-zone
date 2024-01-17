@@ -376,3 +376,73 @@ nav {
 .gamer_player_titel {
   font-size: 1rem;
 }
+
+/*-------footer section-------*/
+footer {
+  background: #0b0223;
+}
+.footer_header_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  padding: 120px 0;
+}
+.color_boxed {
+  color: #fff;
+}
+
+.footer_titel_div {
+  display: flex;
+  align-items: center;
+}
+.footer_list {
+  margin: 3.2rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer_list_item {
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer_icon i {
+  color: #fff;
+  font-size: 2rem;
+}
+.footer_icon_areya {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-descoption {
+  display: flex;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+.footer_descoption_titel {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_addresh {
+  margin-top: 2rem;
+  text-align: center;
+}
+.footer_addresh_text {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -124,6 +124,24 @@
     margin-left: 0%;
     padding: 2rem;
   }
+
+  .footer_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+  }
+
+  .footer_icon_areya {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  }
+  .footer-descoption {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    text-align: center;
+  }
 }
 
 /* -------tablet responce-------*/
@@ -242,5 +260,22 @@
   .carear_text {
     margin-left: 0%;
     padding: 2rem;
+  }
+  .footer_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+  }
+
+  .footer_icon_areya {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 2rem;
+  }
+  .footer-descoption {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    text-align: center;
   }
 }
